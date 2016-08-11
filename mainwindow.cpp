@@ -61,7 +61,7 @@ void MainWindow::on_pushButton_clicked()
     int rowCount = tableModel->rowCount();
 
     if(0 == rowCount) {
-        QMessageBox::information(this,"Warning","Please select files",QMessageBox::Ok);
+        QMessageBox::information(this,"Warning","Please select files first!",QMessageBox::Ok);
         return;
     }
 

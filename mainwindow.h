@@ -34,7 +34,7 @@ private:
          tableModel = new QStandardItemModel();
 
          //设置行
-         tableModel->setColumnCount(2);
+         tableModel->setColumnCount(1);
          tableModel->setHeaderData(0,Qt::Horizontal,tr("File"));
          //tableModel->setHeaderData(1,Qt::Horizontal,tr("Is Register?"));
 
