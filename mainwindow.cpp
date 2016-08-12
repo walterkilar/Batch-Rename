@@ -48,9 +48,9 @@ void MainWindow::on_pushButton_2_clicked()
          {
              QString strFileName = *it;
              QStandardItem* item1 = new QStandardItem(strFileName);
-             QStandardItem* item2 = new QStandardItem(tr("0"));
+             //QStandardItem* item2 = new QStandardItem(tr("0"));
              QList<QStandardItem*> item;
-             item << item1 << item2;
+             item << item1 ;//<< item2;
              tableModel->appendRow(item);
          }
     }
