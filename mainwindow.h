@@ -33,7 +33,7 @@ private:
     {
          tableModel = new QStandardItemModel();
 
-         //设置行
+        
          tableModel->setColumnCount(1);
          tableModel->setHeaderData(0,Qt::Horizontal,tr("File"));
          //tableModel->setHeaderData(1,Qt::Horizontal,tr("Is Register?"));
@@ -41,7 +41,7 @@ private:
          //tableModel->sort(0,Qt::DescendingOrder);
          tableModel->setSortRole(1);
 
-         //设置每行大小
+         
 
 
     }
